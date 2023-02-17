@@ -16,7 +16,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		pringf("%d os positive\n", n);
+		printf("%d os positive\n", n);
 	}
 	else if (n == 0)
 	{
