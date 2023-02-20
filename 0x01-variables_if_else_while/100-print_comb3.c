@@ -4,7 +4,7 @@
  * main - print all possible different combinations of two digits
  * Retrun: Always 0 (Success)
  */
- int main(void)
+int main(void)
 {
 	int (n), (m);
 
@@ -16,7 +16,7 @@
 			{
 				putchar(n);
 				putchar(m);
-				if (n != 56 || m !=57)
+				if (n != 56 || m != 57)
 				{
 					putchar(',');
 					putchar(' ');
