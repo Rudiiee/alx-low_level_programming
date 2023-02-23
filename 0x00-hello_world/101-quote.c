@@ -7,8 +7,7 @@
  *
  * Return: 1
  */
-int write(const char, unsigned int);
-int main(argc)
+int main(void)
 {
 	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 13);
 
