@@ -2,14 +2,14 @@
 
 /**
  * rot13 - encodes a string using rot13
- * @s:pointer to string params
+ * @s: pointer to string params
  *
  * Return: *s
  */
 char *rot13(char *s)
 {
-	int j;
 	int i;
+	int j;
 	char data1[] =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkllmnopqrstuvwxyz";
 	char datarot[] =
